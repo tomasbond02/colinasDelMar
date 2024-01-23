@@ -1,15 +1,22 @@
 .logoContainer{
     display: flex;
     justify-content: space-between;
+    margin: 30px;
 }
 
 .contactContainer{
-    max-width: 50%;
+    max-width: 30%;
     text-align: center;
+}
+
+.contactContainer h3{
+    color: #334240;
+    font-size: 30px;
 }
 
 .copyright{
     background-color: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #334240;
+    padding: 15px;
 }
