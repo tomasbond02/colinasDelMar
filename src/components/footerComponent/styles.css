@@ -1,0 +1,15 @@
+.logoContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactContainer{
+    max-width: 50%;
+    text-align: center;
+}
+
+.copyright{
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #334240;
+}
