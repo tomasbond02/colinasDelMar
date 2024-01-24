@@ -12,8 +12,8 @@ function FooterComponent() {
                 </div>
                 <div className='contactContainer'>
                     <h3>SEGUINOS Y CONTACTANOS</h3>
-                    <WhatsAppIcon></WhatsAppIcon>
-                    <InstagramIcon></InstagramIcon>
+                    <WhatsAppIcon style={{backgroundColor: "#25d366", fontSize: 40, borderRadius: '60%', color: "#ffffff", padding: '10px', marginRight:'5px'}}/>
+                    <InstagramIcon style={{backgroundColor: "#b614e3", fontSize: 40, borderRadius: '60%', color: "#ffffff", padding: '10px'}}/>
                     <p>Agradecemos leer el reglamento interno en la sección "SERVICIOS". Muchas Gracias, los esperamos.</p>
                 </div>
             </div>

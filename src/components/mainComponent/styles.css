@@ -1,3 +1,18 @@
-.introImage{
-    
+.ubicacionStyles{
+    text-align: center;
+    margin: 0 4% 0 4%;
+}
+
+.ubicacionStyles h3{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #4b605c;
+}
+
+.ubicacionStyles p{
+    color: #5f7c78;
+    font-size: 20px;
 }

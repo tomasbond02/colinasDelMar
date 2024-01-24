@@ -1,5 +1,7 @@
 import { Button } from '@mui/material'
 import React from 'react'
+import MapsComponent from '../mapsComponent'
+import './styles.css';
 
 function MainComponent() {
   return (
@@ -13,9 +15,9 @@ function MainComponent() {
         <h2>NUESTRAS CABAÑAS</h2>
         <p>Contamos con dos cabañas totalmente equipadas con todo lo necesario para su estadia. Una cabaña para 6 personas y otra para 4. Ambas comparten caracteristicas como garaje semicubierto, portón eléctrico e internet.</p>
       </div>
-      <div>
+      <div className='ubicacionStyles'>
         <h3>UBICACIÓN</h3>
-        
+        <MapsComponent/>
         <p>Cabañas Colinas del Mar, se encuentran en Arana Y Goiri 2247, Punta Mogotes, Mar del Plata, Bs.As. Costa Atlántica. De allí bajando por Arana y Goiri, cruzando la avenida, se encuentra el complejo de balnearios.</p>
       </div>
     </div>
