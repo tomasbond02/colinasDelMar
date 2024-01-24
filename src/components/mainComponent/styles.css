@@ -1,5 +1,50 @@
-.ubicacionStyles{
+.mainContainer{
     text-align: center;
+}
+
+.introImage{
+    display: flex;
+    background-image: url(/public/pax6Font.jpg);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    background-size: 100% 100%; /* ancho y alto */
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.689); /* Color negro con una opacidad del 50% */
+    background-blend-mode: multiply;
+}
+
+.introImage h1{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.introImage p{
+    animation-delay: 0.4s;
+    margin: 0 auto 30px auto;
+    color: #fff;
+    width: 60%;
+}
+
+.carrouselMain h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #4b605c;
+}
+
+.carrouselMain p{
+    font-size: 30px;
+    margin-bottom: 0;
+    color: #5f7c78;
+}
+
+.ubicacionStyles{
     margin: 0 4% 0 4%;
 }
 
