@@ -12,6 +12,10 @@
   margin-left: 15px;
 }
 
+.linkStyles{
+  display: flex;
+}
+
 .nav-link {
   color: rgba(0, 0, 0, 0.55) !important;
   margin: 10px !important;

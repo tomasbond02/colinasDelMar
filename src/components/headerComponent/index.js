@@ -6,7 +6,7 @@ function HeaderComponent() {
   return (
     <header className="App-header">
       <img src="logoColinas.png" alt="logoImagen" />
-      <div>
+      <div className='linkStyles'>
         <Link className="active-link">
           {'INICIO'}
         </Link>
