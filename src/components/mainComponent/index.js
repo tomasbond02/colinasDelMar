@@ -9,9 +9,9 @@ function MainComponent() {
       <div className='introImage'>
         <h1>Bienvenidos a Colinas Del Mar</h1>
         <p>Nos encontramos en Colinas de Punta Mogotes, zona residencial, Mar del Plata, Provincia de Buenos Aires. Un nuevo estilo de cabañas donde se combina la tranquilidad con la cercanía a la playa.</p>
-        <Button variant="outlined">ver mas</Button>
+        <Button variant="outlined" href='#about'>ver mas</Button>
       </div>
-      <div className='carrouselMain'>
+      <div className='carrouselMain' id='about'>
         <h2>NUESTRAS CABAÑAS</h2>
         <p>Contamos con dos cabañas totalmente equipadas con todo lo necesario para su estadia. Una cabaña para 6 personas y otra para 4. Ambas comparten caracteristicas como garaje semicubierto, portón eléctrico e internet.</p>
         <Carousel/>

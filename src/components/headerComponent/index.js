@@ -1,27 +1,35 @@
 import React from 'react';
 import './styles.css';
-import { Link } from '@mui/material';
+import { Button, Link } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 function HeaderComponent() {
+  const navigate = useNavigate();
+
+  function indexNavigate () {
+    navigate("/");
+  }
+  function serviceNavigate () {
+    navigate("service");
+  }
+  function serviceNavigate () {
+    navigate("service");
+  }
+  function serviceNavigate () {
+    navigate("service");
+  }
+  function serviceNavigate () {
+    navigate("service");
+  }
   return (
     <header className="App-header">
       <img src="logoColinas.png" alt="logoImagen" />
       <div className='linkStyles'>
-        <Link className="active-link">
-          {'INICIO'}
-        </Link>
-        <Link  className="nav-link">
-          {'SERVICIOS'}
-        </Link>
-        <Link className="nav-link">
-          {'PAX 4'}
-        </Link>
-        <Link className="nav-link">
-          {'PAX 6'}
-        </Link>
-        <Link className="nav-link">
-          {'RESERVE'}
-        </Link>
+        <Button variant="text" className="active-link" onClick={indexNavigate}>INICIO</Button>
+        <Button variant="text" className="nav-link" onClick={serviceNavigate}>SERVICIOS</Button>
+        <Button variant="text" className="nav-link" onClick={serviceNavigate}>PAX 4</Button>
+        <Button variant="text" className="nav-link" onClick={serviceNavigate}>PAX 6</Button>
+        <Button variant="text" className="nav-link" href="https://wa.me/+5492235767338">RESERVE</Button>
       </div>
     </header>
   );
