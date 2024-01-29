@@ -1,10 +1,11 @@
 import React from 'react'
 import SmokeFreeIcon from '@mui/icons-material/SmokeFree';
+import './styles.css';
 
 function MainService() {
     return (
-        <div>
-            <div>
+        <div className='service-content'>
+            <div className='service-styles'>
                 <h1>SERVICIOS</h1>
                 <div>
                     <li>Ropa blanca para todos los huespedes</li>
@@ -19,7 +20,7 @@ function MainService() {
                 <p>imagen</p>
             </div>
             <div>
-                <div>
+                <div className='rullers-styles'>
                     <h2>REGLAMENTO INTERNO</h2>
                     <li>ESTADIA. Se debe abonar la totalidad del saldo al ingresar y en efectivo.</li>
                     <li>CHECK IN: A partir de las 15.00hs.</li>
@@ -30,7 +31,9 @@ function MainService() {
                     <li>MASCOTAS. Admisión limitada de pequeñas mascotas, consúltenos por su previa autorización. De ser admitidas, las mismas deberán estar siempre con sus dueños, no pudiendo permanecer solas en la unidad.</li>
                     <li>ADMISION. Colinas Del Mar se reserva el derecho de admisión y/o permanencia, pudiendo exigir el retiro inmediato de quien no cumpliera este reglamento.</li>
                 </div>
-                <SmokeFreeIcon/>
+                <div className='smoke-free-style'>
+                    <SmokeFreeIcon />
+                </div>
             </div>
         </div>
     )
